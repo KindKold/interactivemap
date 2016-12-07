@@ -5,7 +5,10 @@ var Schema = mongoose.Schema;
 var locationSchema = new Schema({
   id: Number,
   name: String,
-  coordinates: String
+  coordinates: String,
+  description: String,
+  filter: String
+  
 });
 
 
